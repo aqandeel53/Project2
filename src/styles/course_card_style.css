@@ -1,0 +1,46 @@
+.garylink {
+    color: gray;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+
+.blacklink {
+    color: black;
+    font-weight: 5000;
+}
+
+img {
+    height: 8rem;
+    width: 14rem;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+a h3 {
+    max-width: 14rem;
+}
+
+.course_card {
+    margin: 2rem 2rem 1rem 0;
+}
+
+button {
+    background-color: white;
+    height: 2rem;
+    width: 9rem;
+    margin: 0.1rem 0.6rem;
+    border: 1px solid black;
+}
