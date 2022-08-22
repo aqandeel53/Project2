@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import data from "./Data.json"
 import CoursesContainer from "./files/CoursesContainer.js"
