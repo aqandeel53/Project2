@@ -1,15 +1,15 @@
-import "../styles/courses_container.css"
+import styles from "../styles/courses_container.module.css"
 
 const CoursesContainer = (props) => {
-
+    const {Header,Description,Name}=props;
     return (
-        <div className="courses_container">
-            <div className="courses_container_header">
-                <h2>{props.header}</h2>
-                <p>{props.description}</p>
-                <button>Explore {props.name}</button>
+        <div className={styles.courses_container}>
+            <div >
+                <h2>{Header}</h2>
+                <p>{Description}</p>
+                <button>Explore {Name}</button>
             </div>
-            <div className="main-body">
+            <div className={styles.main_body}>
                {props.children}
             </div>
         </div>
