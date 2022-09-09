@@ -35,6 +35,9 @@
 .section_length {
     right: 0;
     font-weight: 400;
+    position: absolute;
+    right: 0;
+    width: auto;
 }
 
 .section_container {
@@ -61,12 +64,20 @@
     width: 50px;
     font-weight: 300;
     font-size: 1.1rem;
-}
-
-.file_title {
-    min-width: 550px;
+    right: 10px;
+    position: absolute;
 }
 
 .section_icon {
     margin-right: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .text {
+        font-size: 1rem;
+        width: 30px;
+    }
+    .section_length {
+        font-size: 1rem;
+    }
 }
