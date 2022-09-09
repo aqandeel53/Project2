@@ -100,7 +100,7 @@ function App() {
              Title={course.title} 
              Author1={course.visible_instructors[0].name} 
              Author2={ course.visible_instructors.length >1? ","+course.visible_instructors[1].name :""} 
-             Price="{course.price}" 
+             Price={course.num_reviews} 
              Category={activeCategory}
              key = {course.id} />
             )
@@ -115,7 +115,7 @@ function App() {
         
   return (
     <>
-      <NavBar/>
+      <div><NavBar className='NavBar'/></div>
       <Routes>
         <Route path='/' element={
           <div className='page'>

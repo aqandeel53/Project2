@@ -4,8 +4,13 @@
     background-color: #1c1d1f;
     color: #fff;
     padding: 15px 30px 15px 30px;
-    top: 0;
-    z-index: 5;
+    bottom: 0;
+    z-index: 10;
+    max-height: 71px;
+}
+
+.CourseBar_container2 {
+    width: 80%;
 }
 
 .CourseBar_body {
@@ -13,13 +18,39 @@
 }
 
 .CourseBar_title {
-    width: 800px;
     max-width: 800px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.rating {
+    width: 50px;
+    margin-right: 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.rating_container {
+    display: flex;
+    margin-right: 15px;
+    color: #f3ca8c;
+}
+
+.num_rating {
+    width: 150px;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #5624d0;
 }
 
 @media screen and (max-width: 1100px) {
     .CourseBar_container {
         bottom: 0;
         top: auto;
+    }
+    .CourseBar_title {
+        font-size: 1rem;
+        width: 340px;
     }
 }

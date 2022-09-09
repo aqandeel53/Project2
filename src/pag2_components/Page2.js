@@ -53,7 +53,8 @@ const Page2=(props)=>{
             <div className={styles.CourseLongCard}>
                 <CourseLongCard 
                     Img={Courses[categoryId].items[y].image_240x135} 
-                    Price="349" Hours={Courses[categoryId].items[y].content_info} 
+                    Price={Courses[categoryId].items[y].num_reviews}
+                     Hours={Courses[categoryId].items[y].content_info} 
                     Articals={Courses[categoryId].items[y].num_published_lectures}
                 />
             </div>
