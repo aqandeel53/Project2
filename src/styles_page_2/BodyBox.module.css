@@ -1,0 +1,26 @@
+.box {
+    margin-bottom: 3.2rem;
+    padding: 24px 24px 16px 25px;
+    border: 1px solid #d1d7dc;
+}
+
+.content_container {
+    max-width: 108.4rem;
+    font-weight: 400;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    list-style-type: none;
+    ;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 37.56em) {
+    .content {
+        width: calc(50% - (2.4rem/2));
+    }
+}

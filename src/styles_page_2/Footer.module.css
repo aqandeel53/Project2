@@ -1,0 +1,24 @@
+.container {
+    padding-bottom: 7rem;
+    background-color: #1c1d1f;
+    color: white;
+    z-index: 10;
+}
+
+.title_container {
+    padding: 12px 48px 12px 48px;
+    border-bottom: .4px solid #3c3c3c;
+}
+
+.title {
+    max-width: 80%;
+}
+
+.img {
+    width: 91px;
+    height: 34px;
+}
+
+.body_container {
+    padding: 12px 48px 12px 48px;
+}

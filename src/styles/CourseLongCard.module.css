@@ -1,0 +1,142 @@
+.conteiner {
+    width: 340px;
+    height: 830px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-width: 1px;
+    position: fixed;
+}
+
+.fixed_container {
+    position: absolute;
+    width: 340px;
+    height: 830px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-width: 1px;
+    top: 5rem;
+}
+
+.fixed_container_down {
+    position: absolute;
+    width: 340px;
+    height: 830px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-width: 1px;
+    bottom: 3rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#butt2 {
+    width: 292px;
+    height: 48px;
+    margin-left: 0;
+    margin-bottom: 8px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1rem;
+}
+
+#butt1 {
+    width: 292px;
+    height: 48px;
+    margin-left: 0;
+    margin-bottom: 8px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 1rem;
+    background-color: #a435f0;
+    color: #fff;
+}
+
+.img2 {
+    width: 340px;
+    height: 191px;
+}
+
+.text_conteiner {
+    padding: 24px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: .9rem;
+    color: #1c1d1f;
+}
+
+.list_header {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+.short_text {
+    margin-top: 8px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: .8rem;
+    text-align: center;
+    color: #1c1d1f;
+}
+
+.butt3 {
+    width: 102px;
+}
+
+.butt4 {
+    width: 50px;
+}
+
+.butt5 {
+    width: 110px;
+}
+
+.butt6 {
+    padding: 0 0 0 0;
+    margin-left: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: .9rem;
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    border: none;
+}
+
+.cardfooter {
+    padding: 24px;
+    border-top: 1px solid gray;
+}
+
+#footerheader {
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#footer_text {
+    font-size: 1rem;
+    width: 350px;
+    font-weight: 300;
+}
+
+#footer_butt {
+    height: 40px;
+    width: 292px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-top: 20px;
+}

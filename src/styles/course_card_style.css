@@ -16,6 +16,7 @@ img {
 }
 
 h3 {
+    width: 14rem;
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -34,7 +35,7 @@ a h3 {
 }
 
 .course_card {
-    margin: 2rem 2rem 1rem 0;
+    margin: 2rem 1rem 1rem 0;
 }
 
 button {

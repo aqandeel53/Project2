@@ -1,0 +1,79 @@
+.initial_Name {
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    display: inline-flex;
+    margin-right: 24px;
+}
+
+.review_container {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin: 0;
+    border-top: 1px solid #d1d7dc;
+}
+
+.review_text {
+    font-weight: 400;
+    font-style: unset;
+    margin-bottom: 1rem;
+    color: #050505;
+    font-size: 14px;
+}
+
+.review_text {
+    max-width: 628px;
+}
+
+.review_feedback {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.feedback_buttoms {
+    display: flex;
+    align-items: center;
+}
+
+.feedback_buttom {
+    margin-left: 0;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.feedback_buttom2 {
+    color: #1c1d1f!important;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-weight: 400;
+    font-size: .9rem;
+    width: 60px;
+}
+
+.black {
+    background: black;
+}
+
+.white_background {
+    background: white;
+}
+
+.review_btn {
+    border: 1px solid #1c1d1f;
+    height: 40px;
+    width: 90%;
+    font-weight: 700;
+    font-size: .9rem;
+    margin-left: 5%;
+}

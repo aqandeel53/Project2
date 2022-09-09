@@ -1,0 +1,27 @@
+.main_container {
+    margin-top: 30px;
+}
+
+.list_content {
+    margin-bottom: 8px;
+}
+
+.BodyText_text {
+    font-weight: 400;
+    font-style: unset;
+    margin-bottom: 1rem;
+    color: #46494e;
+    font-size: 14px;
+}
+
+.second_container {
+    -webkit-mask-image: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255), rgb(221 16 16 / 0%));
+}
+
+.btn {
+    color: #5624d0;
+    font-weight: 700;
+    width: auto;
+    margin: 0 0 0 0;
+    border: none;
+}
