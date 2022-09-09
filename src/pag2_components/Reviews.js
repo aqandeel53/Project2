@@ -8,7 +8,8 @@ const Reviews=(props)=>{
             <div> 
                 {Data[CourseId].results.map((review)=>{
                     return (
-                    <Review id={review.id} 
+                    <Review  key={review.id}
+                    id={review.id} 
                     Content={review.content}  
                     Rating={review.rating} 
                     UserName={review.user.title}

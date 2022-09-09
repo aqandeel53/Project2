@@ -36,12 +36,7 @@ function App() {
           setIsLoading(false); 
           setCourses(respose); 
           
-          console.log(respose);
-          console.log("tttttt");
-            // Optional code to simulate delay
-            // setTimeout(() => {
-            //   setIsLoading(false);
-            // }, 3000);
+
         })
         .catch(() => {
           setErrorMessage("Unable to fetch courses");

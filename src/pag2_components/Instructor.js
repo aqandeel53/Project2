@@ -51,8 +51,8 @@ const Instructors=(props)=>{
                 </div>
 
                 <button className={styles.btn} onClick={() => setShowMore(!showMore)}>
-                    {showMore ? <>Show less  <i class="fa-solid fa-angle-up fa-sm"></i></>
-                    : <>Show more <i class="fa-solid fa-angle-down fa-sm"></i></>}
+                    {showMore ? <>Show less  <i className="fa-solid fa-angle-up fa-sm"></i></>
+                    : <>Show more <i className="fa-solid fa-angle-down fa-sm"></i></>}
                 </button>
             </div>
 
