@@ -1,0 +1,33 @@
+.heading_view {
+    box-shadow: 0px 0px 6px 0px rgba(6, 3, 3, 0.2);
+    width: 40%;
+    padding: .7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#img1 {
+    width: 40rem;
+    height: 20rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f6f8;
+    margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 1300px) {
+    #img1 {
+        width: 375px;
+        box-shadow: 0px 0px 6px 0px rgba(6, 3, 3, 0.2);
+    }
+    .heading_view {
+        width: 360px;
+        height: 10rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

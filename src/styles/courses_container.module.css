@@ -6,11 +6,16 @@
 }
 
 .courses_container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
     border-style: solid;
     border-color: #d1d7dc;
     border-width: 1px;
     padding: 2rem 2rem 2rem 2rem;
+}
+
+.btn {
+    width: auto;
+    height: 40px;
 }
