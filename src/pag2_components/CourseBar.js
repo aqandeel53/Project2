@@ -9,7 +9,7 @@ const CourseBar=(props)=>{
                 <div className={styles.CourseBar_body}>
                     <div className={styles.rating_container}>
                         <h3 className={styles.rating}>{Rating}</h3> 
-                        <i className="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h3 className={styles.num_rating}>({NumRatings} ratings) </h3>
                 </div>

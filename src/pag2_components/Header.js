@@ -14,9 +14,9 @@ const Header=(props)=>{
                 </div>
                 <h5 className={styles.white}>Created by <div className={`${styles.purple} ${styles.oneline}`}>{Aurther}</div></h5>
                 <div className={styles.footer}>
-                    <div className={`${styles.white} ${styles.oneline}`}><i className="fa-solid fa-circle-exclamation fa-sm"/> Last updated {LastUpdate}</div>
+                    <div className={`${styles.white} ${styles.oneline}`}><i class="fa-solid fa-circle-exclamation fa-sm"/> Last updated {LastUpdate}</div>
                     <div className={`${styles.white} ${styles.oneline}`}><i className="fa-solid fa-globe fa-sm "/> {Lang}</div>
-                    <div className={`${styles.white} ${styles.oneline}`}><i className="fa-solid fa-closed-captioning fa-sm"/> {Subtitle}</div>
+                    <div className={`${styles.white} ${styles.oneline}`}><i class="fa-solid fa-closed-captioning fa-sm"/> {Subtitle}</div>
                 </div>
             </div>
         </div>

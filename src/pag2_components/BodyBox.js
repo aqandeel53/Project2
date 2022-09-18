@@ -11,7 +11,7 @@ const BodyBox = (props) => {
             <h2> What you w'll learn</h2>
             <ul className={styles.content_container}>
                 {Content.map((content)=>
-                    <li className={styles.content} key={Math.random()*100}><i className="fa-solid fa-check "></i>  {content}</li>
+                    <li className={styles.content}><i class="fa-solid fa-check "></i>  {content}</li>
                 )}
             </ul>
         

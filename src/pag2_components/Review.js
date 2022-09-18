@@ -19,14 +19,14 @@ const Review = (props) => {
                             setisclicked1((isclicked)=>!isclicked)
                             setisclicked2(false)    }}>
                             <div className={styles.white_background}>
-                                <i className="fa-regular fa-thumbs-up fa-xl"></i>
+                                <i class="fa-regular fa-thumbs-up fa-xl"></i>
                                 </div>
                         </button>
                         <button className={`${styles.feedback_buttom} ${isclicked2 ? styles.black : ""}`} onClick={()=>{
                             setisclicked2((isclicked)=>!isclicked)
                             setisclicked1(false)  }}>
                             <div className={styles.white_background}>
-                                <i className="fa-regular fa-thumbs-down fa-xl"></i>
+                                <i class="fa-regular fa-thumbs-down fa-xl"></i>
                                 </div>
                         </button>
                         <button className={styles.feedback_buttom2}>Report</button>

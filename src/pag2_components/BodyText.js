@@ -13,11 +13,7 @@ const BodyText=(props)=>{
                 <div>
                     <h2>Requirements</h2>
                     <ul>
-                        {Requirements.map(({require})=>
-                            <div key={Math.floor(Math.random() * 100)}>
-                            <li   className={styles.list_content}>{require}</li>
-                            </div>
-                            )}
+                        {Requirements.map((require)=><li className={styles.list_content}>{require}</li>)}
                     </ul>
                 </div>
                 <div>
@@ -37,8 +33,8 @@ const BodyText=(props)=>{
                 </div> :""}
             </div>
             <button className={styles.btn} onClick={() => setShowMore(!showMore)}>
-                {showMore ? <>Show less  <i className="fa-solid fa-angle-up fa-sm"></i></>
-                 : <>Show more <i className="fa-solid fa-angle-down fa-sm"></i></>}
+                {showMore ? <>Show less  <i class="fa-solid fa-angle-up fa-sm"></i></>
+                 : <>Show more <i class="fa-solid fa-angle-down fa-sm"></i></>}
             </button>
 
         </div>

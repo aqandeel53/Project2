@@ -13,13 +13,10 @@ const CoursesContainer=(props)=>{
                 </div>
                 <div className={styles.sections_container}>
                     {Content.map((section)=>
-                            <CoursesSection key={Math.floor(Math.random() * 10000)}
-                                Length={section.content_length}  
-                                Lectures ={section.lecture_count}
-                                Title ={section.title}
-                                Content={section.items}
-                                />
-
+                        <CoursesSection Length={section.content_length}  
+                            Lectures ={section.lecture_count}
+                            Title ={section.title}
+                            Content={section.items}/>
                     )}
                 </div>
                 

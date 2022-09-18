@@ -9,19 +9,15 @@ import BodyText from './BodyText';
 import Instructor from './Instructor';
 import Reviews from "./Reviews";
 import CourseBar from '../pag2_components/CourseBar';
-import Footer from "./Footer";
 
 
 const Page2=(props)=>{
-
-
-
-
     const{Courses,ReviewsData,Data}=props;
     const {categoryId,courseId} =useParams();
 
     let y=0;
- 
+    console.log("ddd");
+    console.log( props.Courses[categoryId].items[0]);
 
 
    
@@ -83,15 +79,15 @@ const Page2=(props)=>{
                     Students={Courses[categoryId].items[y].num_subscribers} 
                     Reviews={Courses[categoryId].items[y].num_reviews}
                     Rating={Courses[categoryId].items[y].rating}
-                    Courses={Courses[categoryId].items[y].num_published_lectures}
-                    key={Courses[categoryId].items[y].id*Math.random()}/>
+                    Courses={Courses[categoryId].items[y].num_published_lectures}/>
                 
                 )}
             </div>
             <Reviews Data={ReviewsData} CourseId={Courses[categoryId].items[y].id}/>
+            
+
         </div>
-        <Footer/>
-        
+            
        
 
 

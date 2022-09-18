@@ -1,29 +1,11 @@
 import styles from '../styles/CourseLongCard.module.css'
 import {useParams} from 'react-router-dom'; 
-import React, { useState,useEffect } from "react";
 
 const CourseLongCard =(props)=>{
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const handleScroll = () => {
-      const position = window.pageYOffset;
-      setScrollPosition(position);
-    };
-  
-    useEffect(() => {
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
 
-
-    
     const{Img,Price,Hours,Articals}=props;
     return(
-        <div className={scrollPosition<550? styles.fixed_container 
-                :scrollPosition>4800? styles.fixed_container_down  
-                :styles.conteiner}>
+        <div className={styles.conteiner}>
          <img className={styles.img2} src={Img} alt="course"/>
          <div className={styles.text_conteiner}>
             <h1 className={styles.price}>E£{Price}</h1>
